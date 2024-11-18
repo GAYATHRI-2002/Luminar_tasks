@@ -19,3 +19,14 @@ fruits = ['apple','orange','banana']
 fruits.insert(1,'mango')
 print(fruits)
 
+# Python Program to Swap Two Elements in a List
+list1 = [22,12,34,32,54]
+list1[0],list1[1] = list1[1],list1[0]
+print(list1)
+
+list1 = [22,12,34,23]
+temp = list1[1]
+list1[1] = list1[0]
+list1[0] = temp
+print(list1)
+
